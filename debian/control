@@ -1,0 +1,13 @@
+Source: hook-phosh-noime
+Section: libs
+Priority: optional
+Maintainer: Peter Cai <peter@typeblog.net>
+Build-Depends: debhelper (>= 13)
+Standards-Version: 3.8.4
+
+Package: hook-phosh-noime
+Section: libs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Hook to disable GTK_IM_MODULE for Phosh, working around
+             bugs with Phosh when GTK_IM_MODULE is set.
