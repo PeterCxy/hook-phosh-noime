@@ -13,4 +13,7 @@ install: libhook-phosh-noime.so
 	install -d $(LIBDIR)
 	install -m 644 libhook-phosh-noime.so $(LIBDIR)/
 
-.PHONY: all install
+clean:
+	rm -rf libhook-phosh-noime.so
+
+.PHONY: all install clean
