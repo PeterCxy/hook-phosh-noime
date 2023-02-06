@@ -1,6 +1,9 @@
-hook-phosh-noime (0.0.0+git20230205230609.45ba86c.master) master; urgency=medium
+hook-phosh-noime (0.0.0+git20230205230609.45ba86c.master+git20230205231614.52a2221.master) master; urgency=medium
 
   * Initial commit
+  * Update packaging
+  * Add everything in debian/ to gitignore
+  * Makefile: add clean target
 
- -- Peter Cai <peter@typeblog.net>  Sun, 05 Feb 2023 18:06:09 -0500
+ -- Peter Cai <peter@typeblog.net>  Sun, 05 Feb 2023 18:16:14 -0500
 
