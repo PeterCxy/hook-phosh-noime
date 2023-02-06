@@ -1,9 +1,10 @@
-hook-phosh-noime (0.0.0+git20230205230609.45ba86c.master+git20230205231614.52a2221.master) master; urgency=medium
+hook-phosh-noime (0.0.0+git20230205230609.45ba86c.master+git20230205231614.52a2221.master+git20230206010344.6fbbc03.master) master; urgency=medium
 
   * Initial commit
   * Update packaging
   * Add everything in debian/ to gitignore
   * Makefile: add clean target
+  * packaging: Fix multiarch lib path and permissions
 
- -- Peter Cai <peter@typeblog.net>  Sun, 05 Feb 2023 18:16:14 -0500
+ -- Peter Cai <peter@typeblog.net>  Sun, 05 Feb 2023 20:03:44 -0500
 
